@@ -18,9 +18,18 @@ namespace Method
             return a + b + c;
         }
 
+        static double Sum(double a, double b)
+        {
+            return a + b;
+        }
+        static double Sum(double a, double b, double c)
+        {
+            return a + b + c;
+        }
+
         static void Main(string[] args)
         {
-            int result = Sum(1, 2);
+            double result = Sum(3.5, 3.6);
             Console.WriteLine(result);
         }
     }

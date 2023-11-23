@@ -8,6 +8,12 @@ namespace Method
 {
      class MethodExample
     {
+        /// <summary>
+        /// Воврашает сумму двух чисел
+        /// </summary>
+        /// <param name="a"></param>
+        /// <param name="b"></param>
+        /// <returns></returns>
         static int Sum(int a, int b)
         {
             return a + b;
